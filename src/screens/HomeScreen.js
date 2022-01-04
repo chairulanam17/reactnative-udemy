@@ -17,6 +17,18 @@ const HomeScreen = ({ navigation }) => {
         title="ke layar image"
         onPress={() => navigation.navigate('Image')}
       />
+      <Button
+        title="ke layar counter"
+        onPress={() => navigation.navigate('Count')}
+      />
+      <Button
+        title="ke layar color"
+        onPress={() => navigation.navigate('Color')}
+      />
+      <Button
+        title="ke layar kotak"
+        onPress={() => navigation.navigate('Square')}
+      />
     </View>
   );
 };
